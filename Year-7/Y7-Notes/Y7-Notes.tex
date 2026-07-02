@@ -1,0 +1,757 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate, amsmath, xcolor, amsmath, amssymb}
+\usepackage[shortlabels]{enumitem}
+
+\title{Year 7 Maths Notes}
+\author{Mr Barnes}
+\date{September 2022}
+
+\setcounter{section}{-1}
+
+\pagenumbering{gobble}
+
+\begin{document}
+
+\maketitle
+
+\section{Logic Problems}
+
+\section{Powers and Roots}
+
+\section{BIDMAS and Negative Numbers}
+
+\section{Graphs: Coordinates and Shapes}
+
+\section{Transformations}
+
+\section{Arithmetic of Fractions}
+
+\subsection{Dividing Fractions}
+
+When dividing fractions (or any other numbers for that matter!), we call the number we are dividing by the \textit{divisor} and the number being divided the \textit{dividend}. For example, if we write \(7 \div 6\) then 7 is the dividend and 6 the divisor. To divide fractions, we flip the divisor upside down (this is called taking the \textit{reciprocal}) and multiply them.
+\\
+
+\textbf{Examples:}
+\\
+\begin{enumerate}[start=1,label={E.g.\arabic*}]
+    \item \begin{align*}
+        &\frac{7}{4} \div \frac{3}{5} \\
+        = \;&\frac{7}{4} \times  \frac{5}{3}  \\
+        = \;&\frac{7 \times 5}{4 \times 3} \\
+        = \; & \frac{35}{12}
+    \end{align*}
+\end{enumerate}
+
+\section{Geometry}
+
+\textbf{Challenge Question:} It is known that a regular \(n\)-sided polygon's exterior angles sum to 360\(^\circ\). (A regular \(n\)-sided polygon is a polygon with \(n\) sides of equal length and all its interior and exterior angles are the same.) Can you find a formula in terms of \(n\) for the size of an interior angle of such a polygon?
+\\
+\\
+\textbf{Solution:} Since the exterior angles sum to 360\(^\circ\) and they are all equal, the exterior angles must be
+\[
+\frac{360}{n}^\circ.
+\]
+Now, the interior and exterior angles in any polygon must sum to 180\(^\circ\) so the interior angles must be
+\[
+180 - \frac{360}{n}.
+\]
+But can you find an expression for the sum of the interior angles of a regular \(n\)-sided polygon?
+\newpage
+\section{Algebra: Simplifying Expressions and Brackets}
+
+Algebra is a convenient way of writing mathematical expressions when we do not know the value of some number. If we don't know the value of a number, we denote it by a letter and call it a variable. A common choice is \(x\) but we can use any letter we like! We could even use Greek letters like \(\alpha\) and \(\beta\)...
+
+\subsection{Notation}
+When writing algebraic expressions, we omit multiplication and division signs in a fully simplified algebraic expression. Multiplication is expressed by juxtaposition, that is, by two numbers being side by side. For example,
+\[
+2x
+\]
+just means \(2 \times x\). \\
+\\
+\textbf{NOTE:} We always write the number before the variable. Please never ever write \(x2\).
+\\
+\\
+\textbf{NOTE:} We also never write multiplications by 1. This is pointless as the result is unchanged. Thus, we do NOT write \(1x\). If you ever have this, you must simplify it to \(x\).
+\\
+\\
+Similarly,
+\[
+xy
+\]
+just means \(x \times y\). \\
+\\
+We express division using fractions. So
+\(
+x \div y
+\) is just written as 
+\[
+\frac{x}{y}.
+\]
+
+\subsection{Definitions}
+
+\begin{itemize}
+    \item An unknown number is called a \textit{variable}, e.g. \(x\).
+    \item A series of calculations is known as an \textit{expression}, e.g. \(2x+1\).
+    \item The number (or multiple!) in front a variable is called a \textit{coefficient}.
+    \item A collection of multiplications is called a term, e.g. \(2x\) or \(abc\) or \(7xy\).
+    \item A statement equating two expressions is called an \textit{equation}, e.g. \(3x+2 = y^2 + xy\).
+\end{itemize}
+
+\subsection{Collecting Like Terms}
+
+We can simplify algebraic expressions using the following rule: if we have the same combination of variables each with the same index, we can add or subtract their coefficients.
+\\
+\\
+\textbf{Examples:}
+
+\begin{enumerate}
+    \item \(2x + 3x = 5x\) because we have the same variable \(x\) with the same index!
+    \item \(2y + x\) does not simplify because the variables are different!
+    \item \(x + x^2\) does not simplify because the indices are not the same.
+\end{enumerate}
+
+\subsection{Expanding Brackets}
+
+Consider the expression 
+\[
+3(x+2).
+\]
+To simplify this expression, we must take the product of the term outside the bracket with each term inside and add the results.
+\\
+
+\textcolor{blue}{\textbf{Fun fact:} You may be wondering why we can simplify expressions like this. The reason is because of something called \textit{the distributive property of multiplication over addition}. This is best illustrated through an example. We can write}
+\[
+\color{blue}
+4 \times (2+3) = 4\times2 + 4\times3.
+\]
+\textcolor{blue}{Check that this statement is true for yourself! In fact, this property holds for any three numbers. Think up a few more examples for yourself.} \\
+
+\textbf{Examples:}
+
+\begin{itemize}
+    \item \(3(x+2) = 3x + 6\) 
+    \item \(7(x+1) = 7x + 7\) 
+    \item \(\frac{1}{2}(4x + 2) = 2x+1.\)
+\end{itemize}
+
+Beware of negatives! We must always take these into account. Some more examples:
+\begin{itemize}
+    \item \(3(2x-1) = 6x-3\)
+    \item \(7(x-4) = 7x-28\)
+\end{itemize}
+Be especially aware if the negative is outside the brackets:
+\begin{itemize}
+    \item \(-2(x+1) = -2x-2 \)
+    \item \(-3(x-5) = -3x + 15\)
+\end{itemize}
+\\
+\\
+\textbf{Challenge question:}
+\\
+Using the distributive law of multiplication over addition, calculate how you might expand expressions of the form
+\[
+(x+a)(x+b),
+\]
+where \(a,b\) are constants you are given.
+
+Evaluate the following:
+\begin{align*}
+    (x+2)&(x+3)\\
+    (x-3)&(x+7)\\
+    (a-4)&(b-5)\\
+    (xy+4z)&(x-3y)
+\end{align*}
+
+
+\newpage
+
+\section{Arithmetic of Decimals: Adding and Subtracting}
+
+\subsection{Adding and Subtracting Decimals}
+
+\textbf{Challenge Question 1:} There are many numbers in mathematics which cannot be represented as a ratio of two integers. Such numbers are called \textit{irrational numbers}. Such numbers contain an infinite number of decimals which do not repeat in any specific pattern! We have already encountered some such as \(\sqrt{2}, \sqrt{3}\). You may also have heard of \(\pi\). Other such examples that you will encounter later on in your mathematical journey include Euler's number, \(e\), or the Golden Ratio \(\varphi\). You are given that
+\begin{align*}
+    \sqrt{2} = 1.41421356237... \\
+    \sqrt{3} = 1.73205080757... \\
+\end{align*}
+Find an approximation to the product of \(\sqrt{3}+\sqrt{2}\) and \(\sqrt{3}-\sqrt{2}\).
+\\
+\\
+\textbf{Challenge Question 2:}
+The Golden Ratio is given by
+\[
+\varphi = 1.6180339887...
+\]
+An intriguing property is that it satisfies the following polynomial
+\[
+\varphi^2 -\varphi - 1 = 0.
+\]
+It follows that
+\[
+\varphi^2 = \varphi + 1.
+\]
+In fact, it is true that for any \(n\in\mathbb{N}\), 
+\[
+\varphi^n = \varphi^{n-1}+\varphi^{n-2}.
+\]
+Find and approximation for \(\varphi^{10}\).
+
+
+\subsection{Rounding Decimals}
+
+Sometimes decimals are rather long and give us an unnecessary degree of accuracy. We may wish to make the number more useful by correcting it to a smaller number of decimal places. This is best illustrated through some examples.
+
+\begin{enumerate}
+    \item 31.424 = 31.4 (1 d.p.)
+    \item 72.465 = 72.47 (2 d.p.)
+\end{enumerate}
+
+In the first example, to correct 31.424 to 1 decimal place, we look at the 2nd digit after the decimal and see that it is 2. If this number is less than 5, we remove any other decimals from this point on. We are left with 31.4.
+\\
+\\
+In the second example, to correct the number to 2 decimal places we look at the third decimal which is 5. If this digit is 5 or more, we increase the previous decimal by one and remove the other digits. Thus we have 72.47.
+\\
+\\
+As a final example, we may need to change more than one digit. Consider correcting 0.99 to 1 decimal place. The second decimal is 9 so we correct up but we can't correct the 1st decimal to 10 so we have to correct the whole number to 1.
+
+\newpage
+
+\section{Algebra: Substitution}
+
+\newpage
+
+\section{Fractions, Decimals and Percentages}
+
+\newpage
+
+\noindent \textbf{Starter}
+
+\medskip
+
+\hline
+
+\medskip
+
+\noindent Copy and complete the following table:
+
+\begingroup
+    
+\renewcommand{\arraystretch}{1.5}
+\setlength{\tabcolsep}{10pt}
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+         Fraction & Decimal & Percentage \\
+         \hline
+         \(\frac{3}{4}\) &  & \\
+         & 0.875 & \\
+         & & 65\% \\
+         \(\frac{19}{16}\) & & \\
+         & 10.35 & \\
+         & & 0.004\% \\
+         \hline
+    \end{tabular}
+    \label{tab:placeholder}
+\end{table}
+
+\endgroup
+
+\newpage
+
+\noindent \textbf{Examples}
+
+\medskip
+
+\hrule
+
+\medskip
+
+\begin{enumerate}
+    \item Convert the following into decimals:
+    \begin{enumerate}
+        \item \(\frac{2}{3}\)
+        \bigskip
+        \item \(\frac{5}{9}\)
+        \bigskip
+        \item \(\frac{5}{6}\)
+        \bigskip
+        \item \(\frac{2}{7}\)
+    \end{enumerate}
+\end{enumerate}
+
+\newpage
+
+\noindent \textbf{Exercises}
+
+\medskip
+
+\hrule
+
+\medskip
+
+\noindent Convert the following list of fractions into decimals:
+
+\[
+\frac{1}{2}, \frac{1}{3}, \frac{1}{4}, \frac{1}{5}, \frac{1}{6}, \frac{1}{7}, \frac{1}{8}, \frac{1}{9}, \frac{1}{10}, \frac{1}{11}, \frac{1}{12}, \frac{1}{13}, \frac{1}{14}, \frac{1}{15}, \frac{1}{16}, \frac{1}{17}, \frac{1}{18}, \frac{1}{19}, \frac{1}{20}
+\]
+
+\newpage
+
+\noindent \textbf{Answers}
+
+\medskip
+
+\hrule
+
+\medskip
+
+\begin{enumerate}
+    \item[] \(\frac{1}{2}=0.5\)
+    \item[] \(\frac{1}{3}=0.\dot{3}\)
+    \item[] \(\frac{1}{4}=0.25\)
+    \item[] \(\frac{1}{5}=0.2\)
+    \item[] \(\frac{1}{6}=0.1\dot{6}\)
+    \item[] \(\frac{1}{7}=0.\dot{1}4285\dot{7}\)
+    \item[] \(\frac{1}{8}=0.125\)
+    \item[] \(\frac{1}{9}=0.\dot{1}\)
+    \item[] \(\frac{1}{10}=0.1\)
+    \item[] \(\frac{1}{11}=0.\dot{9}\dot{0}\)
+    \item[] \(\frac{1}{12}=0.08\dot{3}\)
+    \item[] \(\frac{1}{13}=0.\dot{0}7692\dot{3}\)
+    \item[] \(\frac{1}{14}=0.0\dot{7}1428\dot{5}\)
+    \item[] \(\frac{1}{15}=0.0\dot{6}\)
+    \item[] \(\frac{1}{16}=0.0625\)
+    \item[] \(\frac{1}{17}=0.\dot{0}58823529411764\dot{7}\)
+    \item[] \(\frac{1}{18}=0.0\dot{5}\)
+    \item[] \(\frac{1}{19}=0.\dot{0}5263157894736842\dot{1}\)
+    \item[] \(\frac{1}{20}=0.05\)
+\end{enumerate}
+
+\newpage
+
+\section{Algebra: Solving Equations}
+
+\newpage
+
+\subsection{Forming Equations}
+
+\subsubsection*{Examples}
+
+\begin{enumerate}
+    \item A rectangle has two lengths equal to 3cm and the other two are given by \(2x+1\) and \(3x-4\).
+    \begin{enumerate}
+        \item Find an expression in terms of \(x\) for the perimeter of the rectangle.
+        \item Find an expression in terms of \(x\) for the area of the rectangle.
+        \item Find \(x\) and use this to calculate the perimeter and area of the rectangle.
+    \end{enumerate}
+    \newpage
+    \item In a right-angled triangle, one of the remaining angles is twice as large as the other. Find the smallest angle.
+    \newpage
+    \item Bob is twice as old as Alice. Charlie is 3 years older than Bob. The sum of their ages is 58. Find each of their ages.
+\end{enumerate}
+
+\newpage
+
+\section{Probability}
+
+\subsection{The Probability Scale}
+
+\subsection{Theoretical Probability}
+
+\newpage
+
+\subsection{Relative Frequency}
+
+Relative frequency is the number of times an event occurs over the total number of trials.
+\\
+
+\textbf{Example:} If a coin is flipped 20 times and lands on heads 12 times.
+
+\begin{enumerate}
+    \begin{enumerate}
+         \item What is the relative frequency of heads?
+        \item What is the relative frequency of tails?
+        \item Estimate the probability of it landing on heads?
+        \item Is this estimate valid? Justify your answer.
+    \end{enumerate}
+
+\end{enumerate}
+
+\\
+
+\textbf{Solution:}
+
+\begin{enumerate}
+    \begin{enumerate}
+        \item \(\frac{12}{20} = \frac{3}{5}\)
+        \item It must land on tails 8 times so the relative frequency is \(\frac{8}{20}=\frac{2}{5}\).
+        \item \(\frac{3}{5}\)=0.6.
+        \item No since the number of trials is too small for the estimate to be accurate.
+    \end{enumerate}
+\end{enumerate}
+
+\subsection{Expected Values}
+
+The expected number of occurrences of an event can be found by taking the product of the probability of an event with the number of trials.
+\\
+
+\textbf{Example}
+
+A biased die has probability of landing on a 4 equal to \(\frac{4}{25}\). Calculate the expected number of times the die lands on any other number in 100 trials.
+\\
+
+\textbf{Solution}
+
+The probability that the die does not land on a 4 is thus \(\frac{21}{25}\). So in 100 trials we would expect
+\[
+\frac{21}{25} \times 100 = 84 \text{ occurences.}
+\]
+
+\newpage
+
+\subsection{Combined Events}
+
+Sometimes we may wish to consider calculating probabilities where there are multiple events occurring at once. An example of this could be flipping \textit{two or more} coins instead of one. The list of all possible outcomes is called the \textit{sample space}. We can represent this using a table. In the case of two coins we have:
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|}
+    \hline
+         Coin 1 & Coin 2 \\
+         \hline
+         Heads & Heads \\
+         Heads & Tails \\
+         Tails & Heads \\
+         Tails & Tails \\
+         \hline
+    \end{tabular}
+    \label{tab:my_label}
+\end{table}
+\\
+
+\textbf{Example 1}
+
+Alice flips two coins. What is the probability that the second flip is a different result to the first?
+\\
+
+\textbf{Solution 1}
+The sample space is \(\{HH, HT, TH, TT\}\). The events where the 2nd flip is different from the 1st are \(HT\) and \(TH\). Therefore the probability is
+\[
+\frac{2}{4} = \frac{1}{2}.
+\]
+
+\textbf{Example 2}
+In a bag there is 1 red and 2 blue marbles. Bob picks one out, replaces it, and then picks another. What is the probability that he picks two different colours?
+\\
+
+\textbf{Solution 2}
+The sample space table is:
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|}
+    \hline
+         Choice 1 & Choice 2 \\
+         \hline
+         R & B_1\\
+         R & B_2\\
+         R & R\\
+         B_1 & B_1\\
+         B_1& B_2\\
+         B_1&R\\
+         B_2&B_1\\
+         B_2&B_2\\
+         B_2&R\\
+         \hline
+    \end{tabular}
+    \label{tab:my_label}
+\end{table}
+
+From the table, we can see that there are 4 out of 9 possible outcomes in which the marbles are different. Hence the probability is \(4/9\).
+\\
+
+\textbf{Example 3}
+Two dice are rolled. What is the probability that there sum is greater than or equal to 9?
+\\
+
+\textbf{Solution 3}
+The sample space is:
+\begin{table}[]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+    \hline
+         &  1&2&3&4&5&6 \\
+         \hline
+         1& 2& 3& 4& 5& 6&7 \\
+         2& 3& 4& 5& 6& 7&8 \\
+         3& 4& 5& 6& 7& 8&9 \\
+         4& 5& 6& 7& 8& 9&10 \\
+         5& 6& 7& 8& 9& 10&11 \\
+         6& 7& 8& 9& 10& 11&12 \\
+         \hline
+    \end{tabular}
+    \label{tab:my_label}
+\end{table}
+There are 10 results in which the sum is greater than or equal to 9 out of 36 possible outcomes, hence the probability is
+\[
+\frac{10}{36} = \frac{5}{18}.
+\]
+
+\section{Arithmetic of Decimals: Multiplication and Division}
+
+\section{Pythagoras' Theorem}
+
+\section{Graphs: Straight Lines}
+
+\section{Sequences}
+
+\newpage
+\section{Geometry: Angles on Parallel Lines}
+
+\begin{itemize}
+    \item Angles which add up to 90\(^{\circ}\) are called \textit{complementary angles}.
+    \item Angles on a line add up to 180\(^\circ\). These are called \textit{supplementary angles}.
+    \item Angles on a point add up to 360\(^\circ\).
+    \item Where two lines meet, opposite angles are equal and said to be \textit{vertically opposite}.
+\end{itemize}
+
+Draw diagram here
+\\
+\\
+
+\begin{itemize}
+    \item \textit{Co-interior angles} add up to 180\(^\circ\).
+    \item \textit{Corresponding angles} are equal.
+    \item \textit{Alternate angles} are equal.
+\end{itemize}
+
+Diagram here.
+
+\subsection{Mon 17th April}
+
+\begin{itemize}
+    \item Recap definitions (slides)
+    \item Example of linear equations
+    \item 3 Differentiated Worksheets
+\end{itemize}
+
+
+\newpage
+\section{Metric Units}
+
+\subsection{Metric Units of Length}
+
+The standard unit of length is the metre. The symbol for metres is m. Additionally, the following metric units of length can be given:
+
+\begin{itemize}
+    \item 1 kilometre = 1km = 1000m
+    \item 1 centimetre = 1cm = 0.01m
+    \item 1 millimetre = 1mm = 0.001m
+\end{itemize}
+
+It can be more helpful to use the following conversions:
+
+\begin{itemize}
+    \item 100cm = 1m
+    \item 1000mm = 1m
+    \item 10mm = 1cm
+\end{itemize}
+
+\subsection{Metric Units of Mass}
+
+Mass is the measurement of how much matter is in an object. The standard unit of measurement is kilograms, denoted kg. We also use the following units:
+
+\begin{itemize}
+    \item 1 tonne = 1t = 1000kg
+    \item 1000 grams = 1000g = 1kg
+    \item 1000 milligrams = 1000mg = 1g
+\end{itemize}
+
+\newpage
+\section{Area and Perimeter}
+
+
+
+\newpage
+\section{Statistics: Summarising and Comparing Data}
+
+\subsection{Mean, Median, Mode and Range}
+
+We need to learn how to find four things:
+
+\begin{enumerate}
+    \item To find the mean of a list of data, we add all the data points and divide by the size of the list.
+
+    \item To find the median, we first put the list in order and then find the middle number.
+
+    \item To find the mode, we find which number occurs most often.
+
+    \item To find the range, we find the difference between the largest and the smallest numbers.
+\end{enumerate}
+
+\vspace{5mm}
+
+\begin{itemize}
+    \item[] The first three are averages and measure the \textit{centrality} of the data.
+    \item[] The last, the range, is a measure of the spread of the data.
+    \item[] When comparing two data sets, we must always accompany a measure of centrality with a measure of spread.
+\end{itemize}
+
+\vspace{5mm}
+
+\textbf{Examples}
+
+\begin{enumerate}
+    \item Find the mean, median, mode and range of the following list: 
+    
+    \vspace{1mm}
+    \centering
+    3, 5, 7, 12, 17, 18, 19, 19, 21
+    \vspace{20mm}
+    
+    \raggedright
+    \item Find the mean, median, mode and range of the following list: 
+    
+    \vspace{1mm}
+    \centering
+    8, 3, 3, 4, 6, 8, 13, 3, 18
+    \vspace{20mm}
+    
+    \raggedright
+    \item Find the mean, median, mode and range of the following list:
+    
+    \vspace{1mm}
+    \centering
+    -2, -1, 5, 8, -2, 2, -1, 9, -1, 1, 2, -1
+    
+\end{enumerate}
+
+\subsection{Bar Charts}
+
+\newpage
+\subsection{Stem and Leaf Diagrams}
+
+\textbf{Examples}
+
+\begin{enumerate}
+    \item Draw a stem and leaf diagram to represent the following test scores:
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|c|c|c|c|c|c|}
+            \hline
+            18 & 42 & 39 & 41 & 17 & 9 \\
+            \hline
+            22 & 29 & 31 & 27 & 30 & 11 \\
+            \hline
+            16 & 28 & 40 & 27 & 35 & 36 \\
+            \hline
+            45 & 38 & 37 & 30 & 28 & 21 \\
+            \hline
+        \end{tabular}
+        \label{tab:my_label}
+    \end{table}
+    \vspace{50mm}
+    \item The following two tables represent the ages of a group of men and women. Draw a dual stem and leaf diagram to represent this data.
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|c|c|c||c|c|c|}
+        \hline
+            \multicolumn{3}{|c||}{Men} & \multicolumn{3}{c|}{Women} \\
+            \hline
+             21 & 37 & 23 & 22 & 73 & 61 \\
+             \hline
+             42 & 63 & 27 & 63 & 51 & 33 \\
+             \hline
+             72 & 81 & 35 & 42 & 62 & 25 \\
+             \hline
+        \end{tabular}
+        \label{tab:my_label}
+    \end{table}
+\end{enumerate}
+
+
+
+\newpage
+\section*{Factors, Multiples and Primes}
+
+\subsection*{Prime Factor Decomposition}
+
+Determine whether or not the following are square numbers. You must provide proof of your result:
+
+\begin{enumerate}
+    \item 1764
+    \item 523
+    \item 441
+    \item 9801
+    \item 1232
+\end{enumerate}
+
+Determine whether or not the following are cube numbers. You must provide proof of your result:
+
+\begin{enumerate}
+    \item 3375
+    \item 27000
+    \item 360
+    \item 1125
+    \item 421875
+\end{enumerate}
+
+Determine whether or not the following are tesseractic numbers, that is, they are 4th powers. You must provide proof of your result:
+
+\begin{enumerate}
+    \item 648
+    \item 1296
+    \item 810000
+    \item 50625
+    \item 6480
+\end{enumerate}
+
+\subsubsection*{Extension}
+
+What is the condition for a number to be a \(n^{\text{th}}\) power?
+
+\newpage
+
+\section{Venn Diagrams}
+
+\subsection*{Examples}
+
+\begin{enumerate}
+    \item \begin{enumerate}
+        \item A survey of 30 teachers is taken. 12 teachers like both coffee and tea whilst 5 like tea but not coffee. 3 teachers are very strange and like neither. Use a Venn diagram to determine how many like coffee but not tea.
+        \item What is the probability that a teacher chosen at random likes coffee?
+    \end{enumerate}
+
+    \item
+    \begin{enumerate}
+        \item Out of 100 Year 7 pupils, 62 study French and 34 study Spanish. 12 students study neither. Use a Venn diagram to determine how many study both French and Spanish?
+        \item What is the probability that a student chosen at random studies only French or only Spanish?
+    \end{enumerate}
+\end{enumerate}
+
+\newpage
+\section{HCF and LCM}
+
+\subsection*{Examples}
+
+\begin{enumerate}
+    \item Use a Venn diagram to find the LCM and HCF of 30 and 35.
+    \item Use a Venn diagram to find the LCM and HCF of 24 and 60. 
+    \item Find the LCM and HCF of 3300 and 45.
+\end{enumerate}
+
+
+\newpage
+\section{Statistics: Scatter Graphs}
+
+\newpage
+\section{Project}
+
+
+
+
+
+\end{document}
