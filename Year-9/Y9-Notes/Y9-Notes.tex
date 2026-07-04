@@ -1,0 +1,131 @@
+\documentclass{article}
+\usepackage{graphicx, url} % Required for inserting images
+
+\title{Y9 Notes}
+\author{Ciaran Barnes}
+\date{July 2026}
+
+\pagenumbering{gobble}
+
+\begin{document}
+
+\maketitle
+\begin{abstract}
+    Some notes I made on recurring decimals and also, a letter I wrote my Y9 class when they were completly baffled by the idea that \(0.999 \dots =1\) (god forbid!) included purely for amusement.
+\end{abstract}
+
+\newpage
+
+\section{Recurring Decimals}
+
+\newpage
+
+\subsection*{Converting Recurring Decimals to Fractions}
+
+\subsubsection*{Key Points}
+
+\begin{itemize}
+    \item Recurring decimals are decimals which repeat themselves indefinitely.
+    \item A dot above a number indicates that the digit repeats.
+    \item E.g. $0.\dot{3}=0.3333333 \dots $
+    \item Two dots indicate the pattern of digits between the dots repeats.
+    \item E.g. $0.12\dot{3}\dot{4} = 0.1234343434 \dots $
+    \item Some mathematicians prefer a horizontal line above the recurring part, like this: \\
+    $0.12\overline{34} = 0.1234343434\dots$
+\end{itemize}
+
+
+\subsubsection*{Worked Examples}
+
+
+
+    \begin{enumerate}
+        \item Convert the following into fractions:
+        \begin{enumerate}
+            \item $0.\dot{7}$ \vspace{60mm}
+            \item $0.\dot{8}1\dot{4}$ \vspace{60mm}
+            \item $0.30\dot{1}\dot{4}$ \vspace{60mm}
+            \item $3.1\dot{7}\dot{2}$
+        \end{enumerate}
+    \end{enumerate}
+
+\newpage
+
+\subsection*{Calculating with Recurring Decimals}
+
+\subsubsection*{Key Points}
+\begin{itemize}
+    \item If the prime factorisation of the denominator contains only 2s and 5s, then the decimal representation will terminate.
+    \item It it contains any other prime factors, it will recur.
+\end{itemize}
+
+\subsubsection*{Worked Examples}
+
+\begin{enumerate}
+    \item Evaluate $0.\dot{2}\dot{7}\times 0.0\dot{1}\dot{5}$ \vspace{6cm}
+    \item Let $x$ be an integer such that $1\leq x<10$. Show that $0.3\dot{x} = \frac{3x-3}{90}$
+\end{enumerate}
+\begin{center}
+    \fbox{\parbox{\textwidth}{\textbf{Note: } Here we are using the blasphemous notation $3x$ to mean, for example, 31 if $x=1$. It does \textbf{NOT} mean $3 \times x$ as usual in algebra.}}
+\end{center}
+
+
+\vfill
+
+
+\textit{Food for thought:} The above condition for terminating decimals only holds because we work in a base 10 number system. Binary is a base 2 number system. What would the condition be for a terminating decimal there? What about a base \(n\) number system?
+
+\newpage
+\subsection*{A letter to my Year 9 Class}
+
+Dear Year 9,
+
+For those unconvinced of the peculiar result that $0.\dot{9} = 1$, I present several arguments to further your intuition.
+
+\subsubsection*{Argument 1}
+
+Consider
+\[
+\frac{1}{3}=0.\dot{3}
+\]
+Many of you will be happy to accept this. Upon multiplication by 3 on both sides, we achieve
+\[
+1 = 0.\dot{9}
+\]
+
+\subsubsection*{Argument 2}
+
+The second argument relies on knowing what $0.\dot{9}$ really means. It is defined to be the limit of the sequence
+\[
+0.9, 0.99, 0.999, 0.9999 \dots
+\]
+But what exactly is a limit? Put loosely, a limit is a number which a sequence keeps on getting closer too, and may or may not reach at some point in the sequence. 
+
+Consider this, pick any small distance, perhaps 0.001. Then, there is a point in the sequence above where the sequence is always within 0.001 of its limit: 1. Just take the any term after the 3rd one. No matter what distance you choose, this process can always be repeated.
+
+\subsubsection*{Argument 3}
+
+You may believe $0.\dot{9}<1$. Well if you do, pick any number less than 1. Suppose you pick 0.999. Well,  \(0.\dot{9}\) is larger than that because
+\[
+0.\dot{9} > 0.9999 > 0.999
+\]
+I challenge you to pick any other number you want which is less than 1. Then you will find that \(0.\dot{9}\) is greater than whatever number you choose. This is true no matter which number you choose as long as it's less than 1. If this is true for any number less than 1, then there is no gap between 1 and \(0.\dot{9}\).
+
+\subsubsection*{Further Reading}
+
+You may find the first section of this Wikipedia article interesting as well:
+
+\url{https://en.wikipedia.org/wiki/0.999...?scrlybrkr=0b1da52a}
+
+It discusses some elementary proofs as well as more rigorous ones requiring much greater mathematical knowledge although the first section is mostly accessible to you.
+
+\subsubsection*{A Final Test of Your Understanding}
+
+If you have followed these arguments, then, tell me this, what is $0.3\dot{9}$ equal to? I do hope you spend the weekend pondering the wonders of recurring decimals.
+\\
+
+\hfill All the best, \\
+
+\hfill Mr Barnes
+
+\end{document}

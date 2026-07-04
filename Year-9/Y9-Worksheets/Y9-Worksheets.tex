@@ -1,0 +1,224 @@
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol, amsmath, amssymb, hyperref, amsthm}
+
+
+\title{Year 9 Worksheets}
+\author{C C Barnes }
+\date{September 2022}
+
+\pagenumbering{gobble}
+\usepackage{geometry}
+
+\begin{document}
+
+\maketitle
+\begin{abstract}
+    
+\end{abstract}
+
+\newpage
+\section{Straight Line Graphs}
+
+\newpage
+
+\noindent \textbf{Perpendicular Lines}
+
+\medskip
+
+\hrule
+
+\medskip
+
+\begin{enumerate}
+    \item Find the equation of the line passing through \((1,4)\) perpendicular to the line \(y=3x-1\). Give your answer in the form \(ax+by+c=0\) where \(a,b,c \in \mathbb{Z}\).
+    \item Find the equation of the line perpendicular to \(2x+3y+5=0\) passing through \((-1,3)\). Give your answer in the form \(ax+by+c=0\) where \(a,b,c \in \mathbb{Z}\).
+\end{enumerate}
+
+\noindent \textbf{Extension}
+
+\begin{enumerate}
+    \item Line \(A\) passes through the points \((-3, -1)\) and \((-1, 9)\). Line \(B\) passes through the points \((-2, 1)\) and \((k, 4)\). Line \(A\) and Line \(B\) are perpendicular. Find the value of \(k\). 
+\end{enumerate}
+
+\newpage
+
+\noindent \textbf{Answers (Extension only!)}
+
+\medskip
+
+\hrule
+
+\medskip
+
+\noindent Let \(m_A, m_B\) be the gradients of lines \(A\) and \(B\) respectively. Then
+\[
+m_A = \frac{9--1}{-1--3} = \frac{10}{2} = 5.
+\]
+Since \(B\) is perpendicular to \(A\),
+\[
+m_B = - \frac{1}{m_A} = -\frac{1}{5}.
+\]
+Thus \(B\) has equation
+\[
+y=-\frac{1}{5}x + c.
+\]
+Since \(B\) passes through \((-2,1)\),
+\begin{align*}
+    1 &= -\frac{1}{5}(-2) + c \\
+    \implies  c &= \frac{3}{5} \\
+    \implies y &= -\frac{1}{5}x + \frac{3}{5}.
+\end{align*}
+Thus when \(y=4\),
+\begin{align*}
+    4 &= -\frac{1}{5}x + \frac{3}{5} \\
+    \implies x &= -17 \\
+    \implies k &= -17.
+\end{align*}
+
+\noindent Can you find another method for solving this?
+
+\newpage
+
+\noindent \textbf{Gradient and Intercept}
+
+\medskip
+\hrule
+\medskip
+
+\begin{enumerate}
+    \item In each of the following identify the gradient and intercept. Your answers need not be numerical and may include variables.
+    \begin{enumerate}
+        \item \(y=3x-4\)
+        \item \(y+2=-3x\)
+        \item \(y-7=3(x-2)\)
+        \item \(3x+2y+1=0\)
+        \item \(y-y_1=m(x-x_1)\)
+        \item \(x+\pi=3y-2\)
+        \item \(2x+3y + b= ax - 4\)
+        \item \(\frac{x}{a}+\frac{y}{b}=1\)
+    \end{enumerate}
+
+    \item In each case, calculate the gradient between the two points.
+
+    \begin{enumerate}
+        \item  \((3,2) \text{ and } (1,7)\)
+        \item \((-4, -2)\) and \((6,-1)\)
+        \item \((\frac{1}{2}, 5)\) and \((3, \frac{2}{3})\)
+        \item \((-\frac{2}{5}, \frac{1}{4})\) and \((\frac{1}{2}, -\frac{7}{8})\)
+        \item \((x_1,y_1)\) and \((x_2,y_2)\)
+        \item \((3a, 7a)\) and \((2a, -3a)\)
+        \item \((2a-3,-2)\) and \((5a-3,7)\)
+        \item \( (a,2a^2) \) and \((5,10a)\)
+    \end{enumerate}
+
+\end{enumerate}
+
+\newpage
+
+\section{Parabolas}
+
+\newpage
+
+\noindent \textbf{Function Notation}
+
+\medskip
+
+\hrule
+
+\medskip
+
+\noindent \textbf{Extension}
+
+\begin{enumerate}
+    \item Suppose we have two functions, \(f(x)=x^2+6x+1\) and \(g(x)=\frac{1+x}{2-x}\). What is \(f(g(3))\)?
+    \item What is \(g(f(x))\)?
+    \medskip
+    \newline
+    \textit{Aside: This process of combining functions in this way is known as composition of functions and we can denote the resulting function as \(f \circ g\). }
+    \item  Pick any two functions \(f\) and \(g\). Is it true that \(f\circ g=g\circ f\)? This property is known as \textit{commutativity}.
+    \item Suppose \(f(x)=\pi\) and \(g(x)=x+4\). Evaluate both \((f \circ g)(x)\) and \((g \circ f)(x)\).
+\end{enumerate}
+
+\newpage
+
+\noindent \textbf{Answers}
+
+\medskip
+
+\hrule
+
+\medskip
+
+\begin{enumerate}
+    \item \begin{enumerate}
+        \item \(f(g(3))=-7\)
+        \item \(g(f(x)) = \frac{x^2+6x+2}{1-6x-x^2}\)
+    \end{enumerate}
+    \item No. For example, let \(f(x)=x^2, g(x)=x+1\). Then \\
+    \((f\circ g)(x) = x^2+2x+1\) but \\
+    \((g\circ f)(x) = x^2 +1\).
+    \item \((f\circ g)(x) = \pi\) \\
+    \((g\circ f)(x) = \pi +4.\)
+\end{enumerate}
+
+\newpage
+
+\section{Further Factorisation}
+
+\newpage
+
+\noindent \textbf{Further Factorisation}
+
+\medskip
+
+\hrule
+
+\medskip
+
+\noindent Factorise the following expressions:
+
+\begin{enumerate}
+
+    \item $7(x-2) + 3(x-2)$
+    \item $5(y-6) - 7(y-6)$
+    \item $12(z-4) - 7(4-z)$
+    \item $16(2x-4) + 5(x-2)$
+    \item $3(x-2)^3 - 2(x-2)$
+    \item $(x^2-4x) - 4(x-4)$
+    \item $y^3(7-y) + 3y(7-y)$
+    \item $5z^2(z-3)^2 - 5(3z-z^2)^2 $
+
+\end{enumerate}
+
+\newpage
+
+\noindent \textbf{Answers}
+
+\medskip
+
+\hrule
+
+\medskip
+
+\begin{enumerate}
+    \item $10(x-2)$
+    \item $-2(y-6)$ or $2(6-y)$ for +1 style point.
+    \item $19(z-4)$
+    \item $37(x-2)$
+    \item $(x^2+4x+2)(x-2)$ \\
+    \\
+    For the record, the quadratic $x^2+4x+2$ can be factorised but it doesn't have integer roots. It's $(x+2-\sqrt{2})(x+2+\sqrt{2})$ for anyone who's interested... Go ahead and check by expanding it out!
+    \item $(x-4)^2$
+    \item $y(7-y)(y^2+3)$
+    \item 0
+\end{enumerate}
+
+\newpage
+
+
+
+
+
+
+\end{document}
